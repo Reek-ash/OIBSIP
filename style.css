@@ -1,0 +1,238 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    background-image: url(../Task_1/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: auto;
+    background-color: black;
+}
+
+.container1 {
+    text-align: center;
+    padding: 3vh;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+}
+
+.main_heading {
+    font-size: 100px;
+}
+
+.sub_heading {
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #00cd7e;
+    border-bottom: 2px solid #00cd7e;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mid {
+    color: white;
+    text-align: center;
+    padding-top: 210px;
+}
+
+.container2 p {
+    color: white;
+    margin-right: 20px;
+    text-align: left;
+    width: 70%;
+}
+
+.img-content img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #00ff84;
+    border-radius: 10px;
+}
+
+.container3 {
+    margin: 0;
+    text-align: center;
+    padding: 10vh 10vh 20vh 10vh;
+    color: #ffffff;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .step-box {
+    padding: 4vh 1vh;
+    font-size: 16px;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    width: 50%;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.step i {
+    font-size: 30px;
+    color: #3500d3;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container4 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #53565A;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: #f2f2f2;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .container4 {
+        width: 90%;
+    }
+}
+
+.container4 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #14006d;
+}
+
+.container4 p {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container4 input[type="text"],
+.container4 input[type="email"],
+.container4 input[type="number"],
+.container4 input[type="date"],
+.container4 input[type="password"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px dashed #14006d;
+    background-color: transparent;
+    outline: none;
+    padding: 8px;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.container4 select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    color: #53565A;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.container4 input[type="submit"] {
+    width: 100%;
+    background-color: #342867;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.container4 input[type="submit"]:hover {
+    background-color: #a76400;
+}
+
+footer {
+    width: 100%;
+    color: #e1e1e1;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .footer-aroundus {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container .footer-aroundus h4 {
+    font-size: 22px;
+    color: #d9d9d9;
+}
+
+.footer-container .footer-aroundus p {
+    font-size: 16px;
+}
+
+.footer-container .footer-follow {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container .footer-follow h4 {
+    font-size: 22px;
+    color: #d9d9d9;
+}
+
+.icons a {
+    padding-right: 10px;
+}
+
+.icons a i {
+    color: #00ff84;
+    font-size: 22px;
+}
+
+.footer-container .footer-bottom {
+    width: 100%;
+    text-align: center;
+}
