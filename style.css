@@ -1,7 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
-    margin: 0;
-    background-image: url(./img/bg.jpg);
+    background-image: url(./img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,10 +19,11 @@ body {
 
 .main_heading {
     font-size: 100px;
+    text-align: left;
 }
 
 .sub_heading {
-    padding-top: 60px;
+    padding-top: 230px;
     font-size: 20px;
 }
 
@@ -54,7 +54,7 @@ body {
 .mid {
     color: white;
     text-align: center;
-    padding-top: 210px;
+    padding-top: 100px;
 }
 
 .container2 p {
